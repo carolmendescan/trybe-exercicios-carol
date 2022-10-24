@@ -1,12 +1,32 @@
 let word = 'tryber';
-let reverseWord= '';
+let inverso = '';
+let teste = [];
 
-
-for(let index=0; index<word.length; index+=1){
-    reverseWord += word[word.length - 1 - index];
+for(let index = word.length -1; index >= 0; index -= 1 ){
+    inverso += word[index];
+    teste.push(word[index]);
+    
 }
+console.log (inverso);
+console.log (teste);
 
-console.log(reverseWord);
+
+
+
+
+
+
+// let word = 'tryber';
+// let reverseWord= '';
+
+
+
+
+// for(let index=0; index<word.length; index+=1){
+//     reverseWord += word[word.length - 1 - index];
+// }
+
+// console.log(reverseWord);
 
 
 // Outra solução possível:
