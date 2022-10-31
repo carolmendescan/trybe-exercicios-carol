@@ -1,2 +1,1 @@
-document.getElementById("elementoOndeVoceEsta");
-console.log("elementoOndeVoceEsta");
+const elementoOndeVoceEsta = document.getElementById("elementoOndeVoceEsta");
