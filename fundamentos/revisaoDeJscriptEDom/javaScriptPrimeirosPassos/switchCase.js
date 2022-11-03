@@ -12,4 +12,4 @@ switch (statusCandidata) {
         break;
     default:
         console.log('Informação incorreta');
-}
+};

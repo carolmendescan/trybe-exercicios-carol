@@ -92,4 +92,96 @@ console.log(angulos);
 // }
 
 // ==========================================================================
+const pecaXadrez = 'Rainha';
+
+switch (pecaXadrez.toLowerCase()) {
+    case 'rei':
+        console.log('Rei -> Uma casa para qualquer direção');
+        break;
+    case 'bispo':
+        console.log('Bispo -> diagonal');
+        break;
+    case 'rainha':
+        console.log('Rainha-> Diagonal, horizontal e vertical.');
+        break;
+    case 'cavalo':
+        console.log('Cavalo -> "L" pode pular sobre as peças.');
+        break;
+    case 'torre':
+        console.log('Torre -> Horizontal e vertical.');
+        break;
+    case 'peão':
+        console.log("Peão -> Apenas uma casa para frente, no primeiro movimento podem ser duas casas.");
+        break;
+    default:
+        console.log('erro: peça inválida');
+};
+// =================================================================================================
+const grade = 76;
+
+if (grade < 0 || grade > 100) {
+  console.log("Erro, nota incorreta!");
+} else if (grade >= 90) {
+  console.log("A");
+} else if (grade >= 80) {
+  console.log("B");
+} else if (grade >= 70) {
+  console.log("C");
+} else if (grade >= 60) {
+  console.log("D");
+} else if (grade >= 50) {
+  console.log("E");
+} else {
+  console.log("F");
+}
+
+// =================================================================================
+const a = 3;
+const b = 7;
+const c = 9;
+
+let isEven = false;
+
+if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0) {
+isEven = true;
+};
+ console.log(isEven);
+
+ // =================================================================================
+ const a = 3;
+ const b = 7;
+ const c = 9;
+ 
+ let isOdd = false;
+ 
+ if (a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0) {
+ isOdd = true;
+ };
+  console.log(isOdd);
+
+// =================================================================================
+
+const custo = 9;
+const venda = 40;
+const imposto = custo * 0.2
+const lucro = (venda - (custo +imposto)) * 1000;
+
+if (custo < 0 || venda < 0) {
+    console.log('Erro');
+} else {
+    console.log(lucro);
+}
+// GABARITO
+// const costOfProduct = 1;
+// const saleValue = 3;
+
+// if (costOfProduct >= 0 && saleValue >= 0) {
+//   const totalCostOfProduct = costOfProduct * 1.2;
+//   const totalProfit = (saleValue - totalCostOfProduct) * 1000;
+//   console.log(totalProfit);
+// } else {
+//   console.log("Error, os valores não podem ser negativos");
+// };
+
+// =================================================================================
 
