@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário TrybeTrip</title>
+</head>
+<body>
+  <h1>Formulário TrybeTrip</h1>
+  <form>
+    <fieldset>
+  <label for="nomeCompleto">Nome Completo:</label>
+  <input type="text" name="nome" id="nomeCompleto" placeholder="Digite seu nome" maxlength= "40" minlength= "10" required>
+  <br><br>
+  <label for="e-mail">E-mail:</label>
+  <input type="email" name="e-mail" id="e-mail" placeholder="Digite seu e-mail" maxlength= "50" minlength= "10" required>
+  <br>
+  <p>Destino Preferido:</p>
+  <input type="radio" name="destination" id="Destino1" class="radios" value="Cidade" required>
+  <label for="Destino1">Cidade</label>
+  <input type="radio" name="destination" id="Destino2" class="radios" value="Campo" required>
+  <label for="Destino2">Campo</label>
+  <input type="radio" name="destination" id="Destino3" class="radios" value="Praia" required>
+  <label for="Destino3">Praia</label>
+  <input type="radio" name="destination" id="Destino4" class="radios" value="Montanhas" required>
+  <label for="Destino4">Montanhas</label>
+  <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+  <textarea name="motivacao" id="text-area" maxlength="500" cols="60" rows="10" placeholder="Digite aqui sua resposta vencedora"></textarea>
+  <br>
+  <p>Qual a melhor data para realizar sua viagem?</p>
+  <input type="date" id="Data" name="data-">
+  <br><br>
+  <input type="checkbox" name="promo" id="promo">
+  <label for="promo">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe. </label>
+  <br>
+  <input type="checkbox" name="agreement" id="agreement" required>
+  <label for="agreement">Concordo que imagens de minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+  <br>
+</fieldset>
+<br>
+<button type="submit" id="submit-btn" disabled>Participar do concurso TrybeTrip</button>
+<button type="button" id="clear-btn">Apagar informações</button>
+  </form>
+<script src="formScript.js"></script>
+</body>
+</html>
