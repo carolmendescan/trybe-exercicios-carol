@@ -73,7 +73,3 @@ window.onload = function () {
   agree.addEventListener('change', enableSubmit);
 };
 // ====================================================================
-
-// Não entendi bem a parte do prevent default no exemplo do botão enviar.
-// Ver a diferença de fazer arrow function no codigo comentado acima.
-// Porque a parte da validation entrou dentro da função botão enviar? Tem alguma coisa a ver com o preventDefault?
