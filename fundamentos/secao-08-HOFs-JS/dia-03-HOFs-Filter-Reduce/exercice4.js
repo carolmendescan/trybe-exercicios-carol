@@ -61,10 +61,9 @@ const books = [
   },
 ];
 
-const authorNameFicFan = (array) => {
- return array.filter((livro) => livro.genre === 'Ficção Científica' || livro.genre === 'Fantasia')
- .map((nome) => nome.author.name).sort()
-}
+const authorNameFicFan = (array) => array
+  .filter((livro) => livro.genre === 'Ficção Científica' || livro.genre === 'Fantasia')
+  .map((nome) => nome.author.name).sort();
 console.log(authorNameFicFan(books));
 
 // outra maneira:

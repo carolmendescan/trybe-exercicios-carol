@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "airbnb-base"
+  ],
+  "parserOptions": {
+    "compilerOptions": {
+      "preserveConstEnums": true,
+      "strictNullChecks": true,
+      "sourceMap": true,
+      "allowJs": true,
+      "target": "ES6",
+      "moduleResolution": "node",
+      "lib": ["ES2021"],
+      "rootDir": "./",
+      "resolveJsonModule": true,
+      "skipLibCheck": true
+    },
+    "include": ["src", "tests", "scripts"]
+  },
+  "rules": {
+    "no-underscore-dangle":  ["error", { "allow": ["_id"] }]
+  }
+}
