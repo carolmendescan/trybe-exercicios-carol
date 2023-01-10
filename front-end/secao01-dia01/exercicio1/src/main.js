@@ -1,5 +1,5 @@
 import validator from 'validator';
-import './styles.css'
+import './style.css'
 
 const campoDeTexto = document.querySelector('#value');
 const seletor = document.querySelector('#option');
