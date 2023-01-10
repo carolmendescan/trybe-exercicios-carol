@@ -1,0 +1,26 @@
+{
+  "name": "validador-de-campos",
+  "version": "1.0.0",
+  "description": "front-end",
+  "main": "html-validador",
+  "scripts": {
+    "test": "npm run dev",
+    "dev": "vite --open",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+  },
+  "keywords": [
+    "validador",
+    "de",
+    "campos"
+  ],
+  "author": "Ana",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-trybe-frontend": "^1.3.1",
+    "validator": "^13.7.0",
+    "vite": "^4.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}
